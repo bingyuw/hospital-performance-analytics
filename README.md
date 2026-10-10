@@ -90,11 +90,11 @@ High-level view of hospital activity, tracking year-over-year shifts in encounte
 
 **Source views:** `vw_encounters_by_year`, `vw_encounters_by_class_year` (also powers the encounter class slicer), `vw_encounter_duration_split`, `dim_year` (year slicer)
 
-![Encounter Overview](screenshots/01_encounter_overview.png)
+<img width="1918" height="1078" alt="01_encounter_overview" src="https://github.com/user-attachments/assets/df032f38-88d8-45a5-ab21-e71c89f73d66" />
 
 *Figure 1: Encounter Overview dashboard*
 
-![Encounter Class Mix Zoom-In](screenshots/02_class_mix_zoomin.png)
+<img width="1441" height="555" alt="02_class_mix_zoomin" src="https://github.com/user-attachments/assets/97ac9c74-8873-4c68-83da-a4bd310e6567" />
 
 *Figure 2: Zoom-in — Encounter Class Mix by Year matrix (per-class counts, distribution %, and YoY change across 12 years)*
 
@@ -113,11 +113,11 @@ Inpatient readmission patterns and patient volume from 2011-Q1 to 2022-Q4 — ho
 
 **Source views:** `vw_patients_by_quarter`, `vw_readmission_summary`, `vw_top_readmitted_patients`, `vw_readmissions_30day`, `vw_total_unique_inpatients_by_year`, `dim_year` (year slicer)
 
-![Patient Behavior](screenshots/03_patient_behavior.png)
+<img width="1918" height="1078" alt="03_patient_behavior" src="https://github.com/user-attachments/assets/b0316f49-b467-499a-afd7-9b1ac21b9dcb" />
 
 *Figure 3: Patient Behavior dashboard*
 
-![Patient Volume Zoom-In](screenshots/04_patient_volume_zoomin.png)
+<img width="1437" height="548" alt="04_patient_volume_zoomin" src="https://github.com/user-attachments/assets/745e0850-cc0b-4193-9d27-da20bab611d3" />
 
 *Figure 4: Zoom-in — Patient Volume & Inpatient Admissions by Quarter (48 quarters on dual axes)*
 
@@ -133,11 +133,11 @@ Payer coverage and procedure costs from 2011–2022 — comparing average claim 
 
 **Source views:** `vw_claim_cost_by_payer`, `vw_procedures_by_payer_ranked`, `dim_year` (year slicer)
 
-![Cost and Coverage](screenshots/05_cost_coverage.png)
+<img width="1918" height="1078" alt="05_cost_coverage" src="https://github.com/user-attachments/assets/a33e86b9-aec7-4cf5-a050-bc3b8f88b8d3" />
 
 *Figure 5: Cost & Coverage dashboard*
 
-![Uninsured Scatter Zoom-In](screenshots/06_uninsured_scatter_zoomin.png)
+<img width="870" height="454" alt="06_uninsured_scatter_zoomin" src="https://github.com/user-attachments/assets/5c942b3b-c13c-41a2-9180-817d8ff16845" />
 
 *Figure 6: Zoom-in — Procedures for Uninsured Patients scatter plot with range-slider filters*
 
@@ -244,10 +244,10 @@ A walkthrough of the three dashboards — encounter trends, readmission patterns
 - `create_views_objective3.sql` # Cost and coverage views
 - `create_dim_year.sql` # Shared year dimension
 - `vw_total_unique_inpatients_by_year.sql` # Supporting inpatient count view
-- `encounters.csv` # Visit records with start/stop times, encounter class, payer, claim cost
-- `procedures.csv` # Procedure codes, descriptions, base costs, linked encounters
-- `patients.csv` # Demographics: birth date, gender, race, location
-- `payers.csv` # Payer names mapped to encounter payer IDs
+- `encounters.rar` # Visit records with start/stop times, encounter class, payer, claim cost (compressed CSV file)
+- `procedures.rar` # Procedure codes, descriptions, base costs, linked encounters (compressed CSV file)
+- `patients.rar` # Demographics: birth date, gender, race, location (compressed CSV file)
+- `payers.rar` # Payer names mapped to encounter payer IDs (compressed CSV file)
 - `dashboard_walkthrough.mp4` # Screen recording walkthrough
 - `screenshots/01_encounter_overview.png` # Encounter Overview dashboard
 - `screenshots/02_class_mix_zoomin.png` # Zoom-in: Encounter Class Mix by Year matrix
@@ -261,4 +261,4 @@ A walkthrough of the three dashboards — encounter trends, readmission patterns
 
 ## 🏷️ Tags
 
-`#PowerBI` `#MySQL` `#HealthcareAnalytics` `#DataVisualization` `#DashboardDesign` `#BusinessIntelligence` `#HospitalAnalytics` `#MavenAnalytics`
+`#PowerBI` `#MySQL` `#HealthcareAnalytics` `#DataVisualization` `#DashboardDesign` `#BusinessIntelligence` `#HospitalAnalytics`
