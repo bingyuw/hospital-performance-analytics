@@ -9,14 +9,14 @@ Built a three-page Power BI dashboard backed by MySQL views to analyze 27.9K hos
 ## 📋 Table of Contents
 
 - [🎯 Project Background](#-project-background)
-- [🗃️ Data & Tools](#%EF%B8%8F-data—tools)
-- [💻 SQL & Analysis](#-sql—analysis)
+- [🗃️ Data & Tools](#%EF%B8%8F-data--tools)
+- [💻 SQL & Analysis](#-sql--analysis)
 - [📊 Dashboards](#-dashboards)
 - [💡 Findings](#-findings)
 - [✅ Business Impact](#-business-recommendations)
 - [⚙️ Reflections](#%EF%B8%8F-reflections)
 - [🎬 Video Walkthrough](#-video-walkthrough)
-- [📁 Project Files & Resources](#-project-files—resources)
+- [📁 Project Files & Resources](#-project-files--resources)
 
 ---
 
