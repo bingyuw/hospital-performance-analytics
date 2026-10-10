@@ -232,7 +232,7 @@ Most procedures for uninsured patients are performed infrequently, with a median
 
 A walkthrough of the three dashboards — encounter trends, readmission patterns, and cost/coverage analysis.
 
-(directly drag and drop your MP4 file here and Github will generate its own link)
+https://github.com/user-attachments/assets/113e4091-1f5d-4e51-8f29-ffd09375af0c
 
 ---
 
